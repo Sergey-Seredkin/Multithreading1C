@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00fda94a-2ca6-40a6-b5a1-5b1d283f66b6">
+  <producedTypes>
+    <objectType typeId="50d4a3b7-2b21-41e9-aec8-59b38f77a8aa" valueTypeId="52cb726c-8d1a-4e2f-98e3-467a607e9428"/>
+    <managerType typeId="7d47073e-657f-4884-9600-3952ff29b047" valueTypeId="2d798cac-e9c6-47b2-b15d-e5a0ebee503b"/>
+  </producedTypes>
+  <name>SPS_ДлительнаяОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>SPS Демо: Длительная операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.SPS_ДлительнаяОперация.Form.Форма</defaultForm>
+  <forms uuid="4c5aa596-2a27-4cd5-85f4-1b30f5ace970">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

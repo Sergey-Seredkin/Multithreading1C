@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bc53450f-f460-408c-b416-ac6dcccc3656">
+  <name>sps_Multi</name>
+  <synonym>
+    <key>ru</key>
+    <value>Multi</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="22854ed8-2c34-4cf9-8c61-bc20119724c6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b2a8582b-78eb-48fd-acbf-d9476bdc7945"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3d9be5a6-e914-4da2-a3f4-996f4ab7d45c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b0f4311a-3d6e-4e30-9221-b65527a2462e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="86647681-f5d1-4e91-b4cd-78293b2865b5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a0de1f6c-dbf4-4dd4-b7d4-df6dcc7e4a90"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5cb59514-9cec-4eef-bb1d-faf12f725138"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>sps_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.sps_ОсновнаяРоль</defaultRoles>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <roles>Role.sps_ОсновнаяРоль</roles>
+  <dataProcessors>DataProcessor.SPS_ДлительнаяОперация</dataProcessors>
+</mdclass:Configuration>
